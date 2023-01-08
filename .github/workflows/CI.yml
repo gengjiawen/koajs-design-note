@@ -16,7 +16,6 @@ jobs:
           mkdir dist
           gitbook epub ./ dist/koa-design.epub
           gitbook epub ./ dist/koa-design.epub
-          gitbook mobi ./ dist/koa-design.mobi
           ebook-convert dist/koa-design.epub dist/koa-design.pdf
           # gitbook pdf ./ dist/koa-design.pdf
           ls -lh -R dist
